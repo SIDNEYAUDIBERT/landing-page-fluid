@@ -10,17 +10,11 @@ function Header() {
         backgroundColor: "#fff",
         display: "flex",
         alignItems: "center",
-        justifyContent: "space-between",
+        justifyContent: "center",
       }}
     >
-      <div>
-        <FaBeer style={{ backgroundColor: "black" }} />
-      </div>
-      <div>
+      <div style={{ marginTop: "10px" }}>
         <Image src={logo_noir} alt="Logo noir" width={100} height={60} />
-      </div>
-      <div>
-        <Image src="" alt="Logo du panier" />
       </div>
     </header>
   );

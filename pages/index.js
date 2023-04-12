@@ -16,23 +16,26 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <Header></Header>
       </Head>
-      <main style={{ marginTop: "40px" }}>
+      <main>
         <div
           style={{
             display: "flex",
             alignItems: "center",
+            justifyContent: "space-around",
+            backgroundColor: "black",
+            minHeight: "100vh",
           }}
         >
-          <TShirtCard></TShirtCard>
-          <TShirtCard></TShirtCard>
-          <TShirtCard></TShirtCard>
-          <TShirtCard></TShirtCard>
+          <TShirtCard />
+          <TShirtCard />
+          <TShirtCard />
+          <TShirtCard />
         </div>
       </main>
-    </>
+    </div>
   );
 }
